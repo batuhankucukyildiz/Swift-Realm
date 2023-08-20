@@ -14,6 +14,9 @@
 		456833F32A92ABC00046D904 /* Swift_RealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456833F22A92ABC00046D904 /* Swift_RealmTests.swift */; };
 		456833FD2A92ABC00046D904 /* Swift_RealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456833FC2A92ABC00046D904 /* Swift_RealmUITests.swift */; };
 		456833FF2A92ABC00046D904 /* Swift_RealmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456833FE2A92ABC00046D904 /* Swift_RealmUITestsLaunchTests.swift */; };
+		4568340D2A92AF8A0046D904 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568340C2A92AF8A0046D904 /* TaskView.swift */; };
+		4568340F2A92B4BB0046D904 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4568340E2A92B4BB0046D904 /* TaskRow.swift */; };
+		456834112A92B6EB0046D904 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456834102A92B6EB0046D904 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		456833F82A92ABC00046D904 /* Swift-RealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-RealmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456833FC2A92ABC00046D904 /* Swift_RealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RealmUITests.swift; sourceTree = "<group>"; };
 		456833FE2A92ABC00046D904 /* Swift_RealmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RealmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4568340C2A92AF8A0046D904 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		4568340E2A92B4BB0046D904 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		456834102A92B6EB0046D904 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,12 @@
 		456833DF2A92ABBE0046D904 /* Swift-Realm */ = {
 			isa = PBXGroup;
 			children = (
+				4568340B2A92AF650046D904 /* Views */,
 				456833E02A92ABBE0046D904 /* Swift_RealmApp.swift */,
-				456833E22A92ABBE0046D904 /* ContentView.swift */,
 				456833E42A92ABBF0046D904 /* Assets.xcassets */,
 				456833E62A92ABBF0046D904 /* Swift_Realm.entitlements */,
 				456833E72A92ABBF0046D904 /* Preview Content */,
+				4568340E2A92B4BB0046D904 /* TaskRow.swift */,
 			);
 			path = "Swift-Realm";
 			sourceTree = "<group>";
@@ -127,6 +134,16 @@
 				456833FE2A92ABC00046D904 /* Swift_RealmUITestsLaunchTests.swift */,
 			);
 			path = "Swift-RealmUITests";
+			sourceTree = "<group>";
+		};
+		4568340B2A92AF650046D904 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				456833E22A92ABBE0046D904 /* ContentView.swift */,
+				4568340C2A92AF8A0046D904 /* TaskView.swift */,
+				456834102A92B6EB0046D904 /* AddTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4568340D2A92AF8A0046D904 /* TaskView.swift in Sources */,
+				456834112A92B6EB0046D904 /* AddTaskView.swift in Sources */,
 				456833E32A92ABBE0046D904 /* ContentView.swift in Sources */,
 				456833E12A92ABBE0046D904 /* Swift_RealmApp.swift in Sources */,
+				4568340F2A92B4BB0046D904 /* TaskRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
